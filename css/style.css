@@ -855,10 +855,13 @@ body {
 }
 
 .close-modal-btn {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
   padding: 0;
   width: 30px;
   height: 30px;
@@ -872,4 +875,69 @@ body {
   fill: currentColor;
   width: 11px;
   height: 11px;
+}
+
+/*--Формы в модалке--*/
+
+label,
+input {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding-top: 14px;
+  padding-left: 14px;
+  padding-bottom: 14px;
+}
+
+label {
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 14px;
+  color: #757575;
+  margin-bottom: 4px;
+  padding: 0;
+}
+
+textarea {
+  padding: 12px 16px;
+  resize: none;
+
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.form-fields {
+  padding: 32px 32px;
+  width: 100%;
+}
+
+.form-title {
+  margin: 0px;
+  padding: 0px;
+
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #212121;
+}
+
+.form-input {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+}
+.distance {
+  margin-top: 12px;
+}
+
+.form-input-policy {
+  margin-top: 20px;
+}
+
+.form-input-btn-submit {
+  margin-top: 30px;
 }

@@ -89,6 +89,50 @@
                   <use href="./images/close.svg#icon-close"></use>
                 </svg>
               </button>
+              <!------- Формы в модалке---------->
+              <form class="form-fields">
+                <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+                <!--Имя-->
+                <div class="form-input distance">
+                  <label for="name">Имя</label>
+                  <input type="text" name="name" id="name" placeholder="Ирина Радионовна" />
+                </div>
+                <!--Тел-->
+                <div class="form-input"></div>
+                <label for="tel">Телефон</label>
+                <input type="tel" name="phone_number" id="tel" placeholder="+38(050)000-00-00" />
+                <!--Почта-->
+                <div class="form-input">
+                  <label for="email">Почта</label>
+                  <input type="email" name="email" id="email" placeholder="my@mnail.com" />
+                </div>
+                <!--Комментарий-->
+                <div class="form-input">
+                  <label for="comments">Комментарий</label>
+                  <textarea
+                    name="comments"
+                    id="comments"
+                    rows="10"
+                    placeholder="Введите текст"
+                  ></textarea>
+                </div>
+                <!--Полиси-->
+                <div class="form-input-policy">
+                  <input
+                    id="policy"
+                    type="checkbox"
+                    name="policy"
+                    value="Согласен с рассылкой и Условиями договора"
+                  />
+                  <label for="policy"
+                    >Согласен с рассылкой и <a href="">Условиями договора</a></label
+                  >
+                </div>
+                <!--Кнопка отправить-->
+                <div class="form-input-btn-submit">
+                  <button type="submit">Отправить</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
