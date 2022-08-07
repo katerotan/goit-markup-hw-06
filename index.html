@@ -13,6 +13,7 @@
 
     <!--Подключены стили-->
     <link rel="stylesheet" href="./css/style.css" />
+     <link rel="stylesheet" href="./css/temp.css" />
 
     <!--Подключены шрифты Roboto 400 500 700 900-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -90,34 +91,35 @@
                 </svg>
               </button>
               <!------- Формы в модалке---------->
-              <form class="form-fields">
+              <form class="form">
                 <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
                 <!--Имя-->
-                <div class="form-input distance">
+                <div class="form-field">
                   <label for="name">Имя</label>
-                  <input type="text" name="name" id="name" placeholder="Иван Иваныч" />
+                  <input type="text" name="name" id="name" placeholder="test" autofocus/>
                 </div>
                 <!--Тел-->
-                <div class="form-input"></div>
+                <div class="form-field">
                 <label for="tel">Телефон</label>
-                <input type="tel" name="phone_number" id="tel" placeholder="+38(050)000-00-00" />
+                <input type="tel" name="phone_number" id="tel" placeholder="test" />
+                </div>
                 <!--Почта-->
-                <div class="form-input">
+                <div class="form-field">
                   <label for="email">Почта</label>
-                  <input type="email" name="email" id="email" placeholder="my@mnail.com" />
+                  <input type="email" name="email" id="email" placeholder="test" />
                 </div>
                 <!--Комментарий-->
-                <div class="form-input">
+                <div class="form-field">
                   <label for="comments">Комментарий</label>
-                  <textarea
+                  <textarea class="comment"
                     name="comments"
                     id="comments"
-                    rows="10"
+                    rows="8"
                     placeholder="Введите текст"
                   ></textarea>
                 </div>
                 <!--Полиси-->
-                <div class="form-input-policy">
+                <div class="form-field">
                   <input
                     id="policy"
                     type="checkbox"
