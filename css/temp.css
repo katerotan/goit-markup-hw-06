@@ -121,3 +121,73 @@ textarea::placeholder {
 .form-input-btn-submit:focus {
   background-color: #188ce8;
 }
+
+/*---------------В ФУТЕРЕ--------------*/
+
+.footer-email {
+  margin-left: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-email-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #ffffff;
+  margin: 0;
+
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.footer-email-input {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-email-input input {
+  padding: 15px 16px;
+  min-width: 358px;
+
+  font-size: 16px;
+  line-height: 20px;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+/*--Кнопака--*/
+.form-input-btn-email {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: var(--button-order-color);
+  background-color: #2196f3;
+
+  cursor: pointer;
+
+  display: inline-block; /*для кнопок баттон и ссылок-кнопок - обязательно*/
+  min-width: 200px;
+  min-height: 50px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 13px 28px;
+  border-width: 0px;
+  border-style: none;
+  text-align: center;
+}
+
+.form-input-btn-email:hover,
+.form-input-btn-email:focus {
+  background-color: #188ce8;
+}
