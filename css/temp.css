@@ -75,11 +75,11 @@ textarea::placeholder {
   border: 1px solid #2196f3;
 }
 
-.distance1 {
+.form-field:nth-of-type(4) {
   margin-bottom: 20px;
 }
 
-.distance2 {
+.form-field:nth-of-type(5) {
   margin-bottom: 0px;
 
   flex-direction: unset;
@@ -89,7 +89,7 @@ textarea::placeholder {
   align-items: baseline;
 }
 
-.distance2 label {
+.form-field:nth-of-type(5) label {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0px;
@@ -97,11 +97,11 @@ textarea::placeholder {
   color: #757575;
 }
 
-.distance2 label a {
+.form-field:nth-of-type(5) label a {
   color: #2196f3;
 }
 
-.distance2 input {
+.form-field:nth-of-type(5) input {
   width: 16px;
 }
 
