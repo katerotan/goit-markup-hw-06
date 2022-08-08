@@ -275,7 +275,7 @@ textarea::placeholder {
   fill: #188ce8;
 }
 
-.form-input:focus-visible,
+input:focus-visible,
 textarea:focus-visible {
   outline: 1px solid #2196f3;
 }
