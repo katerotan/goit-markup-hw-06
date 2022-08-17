@@ -95,7 +95,7 @@
                 <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
                 <!--Имя-->
                 <div class="form-field">
-                  <label for="name">Имя</label>
+                  <label class="label-name-tel-email-comm" for="name">Имя</label>
                   <input
                     class="form-input"
                     type="text"
@@ -110,7 +110,7 @@
                 </div>
                 <!--Тел-->
                 <div class="form-field">
-                  <label for="tel">Телефон</label>
+                  <label class="label-name-tel-email-comm" for="tel">Телефон</label>
                   <input
                     class="form-input"
                     type="tel"
@@ -124,7 +124,7 @@
                 </div>
                 <!--Почта-->
                 <div class="form-field">
-                  <label for="email">Почта</label>
+                  <label class="label-name-tel-email-comm" for="email">Почта</label>
                   <input class="form-input" type="email" name="email" id="email" placeholder="" />
                   <svg class="icon-mail">
                     <use href="./images/symbol-modals.svg#icon-mail"></use>
@@ -132,7 +132,7 @@
                 </div>
                 <!--Комментарий-->
                 <div class="form-field">
-                  <label for="comments">Комментарий</label>
+                  <label class="label-name-tel-email-comm" for="comments">Комментарий</label>
                   <textarea
                     class="comment"
                     name="comments"
@@ -142,16 +142,23 @@
                 </div>
                 <!--Полиси-->
                 <div class="form-field">
-                  <input
-                    id="policy"
-                    type="checkbox"
-                    name="policy"
-                    value="Согласен с рассылкой и Условиями договора"
-                  />
-
-                  <label for="policy"
-                    >Согласен с рассылкой и <a href="">Условиями договора</a></label
-                  >
+                  <!--Построение как у Репеты-->
+                  <label class="label-policy" for="policy">
+                    <input
+                      class="checkbox"
+                      id="policy"
+                      type="checkbox"
+                      name="policy"
+                      value="Согласен с рассылкой и Условиями договора"
+                    />
+                    <svg class="icon-icon-checked">
+                      <use href="./images/symbol-modals.svg#icon-icon-check" />
+                    </svg>
+                    <svg class="icon-icon-check">
+                      <use href="./images/symbol-modals.svg#icon-Vector" />
+                    </svg>
+                    Согласен с рассылкой и <a href="">Условиями договора</a>
+                  </label>
                 </div>
                 <!--Кнопка отправить-->
 
